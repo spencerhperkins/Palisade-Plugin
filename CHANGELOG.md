@@ -10,13 +10,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Skill: `prosecution-history`, which reads the file wrapper of any US application from the USPTO Open Data Portal.
+- Commands: `/preview`, which pulls up a patent preview, and `/prosecution`, which pulls up an application's prosecution history.
 
 ### Changed
 
 - `chart` traces prosecution history for claim construction and equivalents instead of asking the user for it.
 - `patent-search-fundamentals` adds a citation format for prosecution papers.
 
-## [0.1.0] - 2026-09-24
+## [0.1.0] - 2026-09-25
 
 ### Added
 

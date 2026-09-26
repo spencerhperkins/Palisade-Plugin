@@ -23,7 +23,8 @@ To use only the search engine manually, see [palisadeinnovation.com](https://www
 | `/invalidity` | `chart`, `prior-art-search` | Searches for prior art against the claims of a US patent and charts the strongest references, limitation by limitation, with the anticipation and obviousness grounds the chart supports. |
 | `/chart` | `chart` | Builds a limitation-by-limitation claim chart of any type: invalidity against a reference, infringement against a product, process, or standard, or claim construction of disputed terms. |
 | (no command) | `prior-art-search` | Iterative prior-art search. It reads the full claim sets that semantic search returns to decide which specifications to mine, then follows up with keyword and applicant searches. It does the searching for `/invalidity`, and also runs novelty searches on an invention disclosure or draft claims when asked directly. |
-| (no command) | `prosecution-history` | Reads the file wrapper of any US application live from the USPTO Open Data Portal. It lists every paper with the statutes and claims each office action rejected, then pulls only the papers the question needs, such as claim amendments, remarks, or reasons for allowance. `chart` uses it for prosecution disclaimer and estoppel. |
+| `/preview` | (none) | Pulls up the preview of a US patent with the `patent_preview` tool. |
+| `/prosecution` | `prosecution-history` | Reads the file wrapper of any US application live from the USPTO Open Data Portal. It lists every paper with the statutes and claims each office action rejected, then pulls only the papers the question needs, such as claim amendments, remarks, or reasons for allowance. `chart` uses it for prosecution disclaimer and estoppel. |
 
 ## Example prompts
 
@@ -33,6 +34,8 @@ To use only the search engine manually, see [palisadeinnovation.com](https://www
 - `/chart US 10,XXX,XXX claims 1 and 12 infringement vs a smart thermostat that learns occupancy from phone location`
 - `/chart US 10,XXX,XXX claim 1 infringement vs 3GPP TS 38.331, Release 16`
 - `/chart US 10,XXX,XXX claim construction of "substantially aligned" and "control module"`
+- `/preview US 10,XXX,XXX`
+- `/prosecution US 10,XXX,XXX`
 - `Run a novelty search on: a wearable sensor that estimates hydration from sweat conductivity and adjusts a reminder schedule`
 - `What did the applicant argue to overcome the 103 rejections in the prosecution of US 10,XXX,XXX?`
 
