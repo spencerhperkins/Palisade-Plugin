@@ -1,0 +1,23 @@
+{
+  "name": "palisade",
+  "version": "0.1.0",
+  "description": "Semantic search over US granted patents with skills for prior-art and novelty searching and for invalidity, infringement, and claim construction charts.",
+  "author": {
+    "name": "Spencer H. Perkins"
+  },
+  "homepage": "https://www.palisadeinnovation.com",
+  "repository": "https://github.com/spencerhperkins/palisade-plugin",
+  "license": "Apache-2.0",
+  "keywords": [
+    "patents",
+    "prior art",
+    "patent search",
+    "invalidity",
+    "patentability",
+    "infringement",
+    "claim chart",
+    "claim construction",
+    "legal",
+    "ip"
+  ]
+}

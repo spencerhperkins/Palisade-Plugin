@@ -1,0 +1,35 @@
+{
+  "name": "palisade",
+  "owner": {
+    "name": "Palisade Innovation, Inc.",
+    "url": "https://www.palisadeinnovation.com"
+  },
+  "description": "Free semantic patent search for Claude: the US granted patent corpus (2005–present) plus practitioner workflows.",
+  "plugins": [
+    {
+      "name": "palisade",
+      "source": "./plugins/palisade",
+      "description": "Semantic search over US granted patents with skills for prior-art and novelty searching and for invalidity, infringement, and claim construction charts.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Spencer H. Perkins"
+      },
+      "homepage": "https://www.palisadeinnovation.com",
+      "repository": "https://github.com/spencerhperkins/palisade-plugin",
+      "license": "Apache-2.0",
+      "keywords": [
+        "patents",
+        "prior art",
+        "patent search",
+        "invalidity",
+        "patentability",
+        "infringement",
+        "claim chart",
+        "claim construction",
+        "legal",
+        "ip"
+      ],
+      "category": "legal"
+    }
+  ]
+}
